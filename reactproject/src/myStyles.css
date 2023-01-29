@@ -1,0 +1,187 @@
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -6.25em;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.content {
+  width: 1000px;
+  border: 1px solid #ff0000;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 1 px;
+  color: #fff;
+}
+
+.nav-menu {
+  float: right;
+}
+
+.nav-menu ul {
+  display: flex;
+}
+
+.nav-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+
+.nav-menu ul li a {
+  color: #cfd2d6;
+  text-decoration: none;
+}
+
+.nav-menu ul li a:hover {
+  color: #27bcda;
+}
+.article {
+  padding: 0 15px;
+  width: 900px;
+  max-width: 60%;
+  background: transparent !important;
+  margin: 0 15px 0 0;
+  border-radius: 10px solid black;
+}
+.article h1 {
+  margin-top: 0;
+}
+.article h2 {
+  padding-left: 20%;
+  color: blueviolet;
+  font-weight: 900px;
+}
+
+.aside {
+  top: 12px;
+  background-image: linear-gradient(rgb(188, 179, 179),rgb(84, 81, 81));
+  padding: 70px 30px;
+  overflow: auto;
+ margin-bottom: 100px;
+  float: right;
+  left: 100;
+  width: 170px;
+  height: 284px;
+  border-width: 13px;
+  border-style: solid;
+  border-color: rgba(79, 75, 75, 0.07);
+  border-radius: 5px;
+  border-width: 5px;
+
+}
+.aside .menu ul li a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+
+  list-style-type: none;
+}
+.aside h3 {
+  margin-left: 0px;
+}
+.aside svg {
+  width: 100px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.aside .infos-auteur h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.aside .infos-auteur span {
+  display: block;
+  padding: 0 2px 50px 10px;
+}
+.aside a {
+  color: black;
+}
+button {
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 25px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.article,
+aside {
+  float: left;
+}
+.article p {
+  font-size: larger;
+  width: 1060px;
+}
+.article img {
+  padding-left: 20%;
+}
+.mycontainer {
+  width: 120%;
+  height: 450px;
+  padding-right: 190px;
+  border-bottom: 20px;
+  border-style: solid;
+  border-color: #a05790;
+  border-radius: 15px;
+  border-width: 5px;
+  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  background-color: rgb(250, 240, 230);
+  
+}
+span {
+  color: royalblue;
+}
+.my {
+  background-color: rgb(187, 185, 185);
+  width: 300px;
+  border: 15px solid rgb(60, 67, 123);
+  padding: 50px;
+  margin-left: 400px;
+  height: 350px;
+  border-radius: 20px;
+}
+.img-container {
+  text-align: center;
+}
+
+.img-container img {
+  height: 80px;
+  margin-right: 50px;
+}
+.btn2{
+  margin-left: 20px;
+}
+.cod{
+  margin-right: 800px;
+  color:cadetblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+pre{
+  margin-right: 600px;
+}
+.theory{
+  color:rgb(158, 88, 132);
+}
